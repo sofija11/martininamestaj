@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kontakt</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<meta name="robots" content="index,follow"/>
+		<meta name="viewport" content="width=device-width;initial-scale=1.0"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="keywords" content="Ime, Prezime"/>
+		<meta name="description" content="Pomozite nam!"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid" id="navi">
+				<div class="navbar-header" id="logo" class="col-lg-3">
+					<a class="navbar-brand" href="index.html"><img src="slike/logo.png" alt="Logo"
+						title="Logo"  width="100px" height="50px"/></a>
+				</div>
+				<ul class="nav navbar-nav" id="gacija" class="col-lg-9">
+				  <li><a href="index.html">Početna</a></li>
+				  <li><a href="sofe.html">Sofe</a></li>
+				  <li><a href="eksterijer.html">Eksterijer</a></li>
+				  <li><a href="kontakt.html">Kontakt</a></li>
+				  <li><a href="autor.html">O autoru</a></li>
+				</ul>
+   
+			</div>
+			<div class="container" id="uvod">
+				<h1>Pišite nam!</h1>
+					<p>Da nije bilo vaših predloga i sugestija, mi danas ne bi bili tu!</p> 
+			</div>
+			<div class="container" class=" col-md-12 col-xs-12 "id="form">
+				<form action="/action_page.php" method="get">
+					<label for="ime">Ime:</label><br/><br/>
+						<input type="text" class="form-control" id="vime" name="vime" placeholder="Uneti ime.." required /><br/>
+					<label for="prezime">Prezime:</label><br/><br/>
+						<input type="text" class="form-control" id="prezime" name="prezime" placeholder="Uneti prezime.." required /><br/>
+					<label for="mejl">Email:</label><br/><br/>
+						<input type="email" class="form-control" id="imejl" name="imejl" placeholder="Uneti vaš mejl.." required /><br/>
+					<label for="poruka">Vaš komentar, sugestija ili kritika:</label><br/><br/>
+						<textarea rows="10" class="form-control" cols="50" name="poruka" id="iporuka" placeholder="Uneti tekst" required></textarea><br/><br/>
+							<label for="ocena">Vaša ocena:</label><br/><br/>
+								<select class="form-control">
+									<option value="Ocena">Ocena</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select><br/><br/>
+								<input type="submit" id="posalji" name="bposalji" value="Pošalji" required />
+				</form>
+			</div>
+			<div class="container-fluid" id="futer">
+			<div class="row">
+				<div class="col-lg-4 col-xs-9" id="fut">
+					<ul >
+					  <li><a href="index.html">Početna</a></li>
+					  <li><a href="sofe.html">Sofe</a></li>
+					  <li><a href="eksterijer.html">Eksterijer</a></li>
+					  <li><a href="kontakt.html">Kontakt</a></li>
+					  <li><a href="autor.html">O autoru</a></li>
+					</ul>
+
+				</div>
+				<div class="col-lg-3 col-xs-3" id="colll">
+					<p>Copyright &copy; Sofija Vitorović</p>
+				</div>
+				<div class="col-lg-4 col-xs-12" id="mreze">
+					<ul class="nav navbar-nav"id="dole">
+						<li><a href="https://www.facebook.com/sofija.vitorovic" class="fa fa-facebook-square" target="_blank"></a></li>
+						<li><a href="https://www.instagram.com/so_fi_ja11/" class="fa fa-instagram"  target="_blank"></a></li>
+					</ul>
+				</div>
+			</div>
+			</div>	
+				
+				
+				</body>
+			</html>

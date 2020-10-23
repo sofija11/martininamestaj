@@ -1,0 +1,123 @@
+p, h1,h2{
+	color:#a18cb8;
+
+}
+
+#logo{
+	margin-right:60px;
+}
+#navi{
+	padding:20px 25px;
+	font-size:23px;
+
+}
+#slajder{
+	position:fixed;
+}
+#gacija li{
+	margin-left:60px;
+}
+#slik img {
+	width:100%
+}
+#navi img{
+	padding-top:-10px;
+}
+#navi h1{
+	font-size:50px;
+}
+.nav navbar-nav.active a{
+	background-color:black;
+}
+#sred{
+	margin:50px 0px;
+}
+#teks{
+	padding:50px 100px;
+}
+#futer{
+	background-color:#333;
+	margin-top:50px;
+}
+#fut{
+	margin-top:15px;
+	
+}
+#fut ul li a{
+	text-decoration:none;
+	font-size:18px;
+	color:#9d9d9d;
+	
+}
+#fut ul li a:hover{
+	color:white;
+}
+#colll p{
+	font-size:20px;
+	color:black;
+	}
+#colll {
+	padding-top:75px;
+}
+#dole{
+	padding-top:68px;
+	padding-left:130px;
+	
+}
+#mreze{
+	margin-left:50px;
+
+}
+#mreze ul li a{
+	font-size:30px;
+	color:#e0d3ef;
+
+}
+#mreze ul li{
+	padding-bottom:42px;
+}
+#mreze ul li a:hover{
+	color:black;
+}
+#naslov h1{
+	text-align:center;
+	font-size:50px;
+	color:#e0d3ef;
+}
+#ge{
+	margin-top:50px;
+	margin-bottom:100px;
+}
+#form{
+	color:#e0d3ef;
+}
+#uvod{
+	padding-top:70px;
+}
+#autor{
+	margin-top:100px;
+	padding:0px 150px;
+}
+#futer{
+	margin-top:300px;
+}
+#uvod{
+	text-align:center;
+}
+input[type=submit] {
+	color:#555;
+}
+#aut p{
+	font-size:20px;
+}
+#uvod p{
+	font-size:25px;
+}
+@media screen and (min-width: 576px) {
+#mreze ul li{
+	display: inline-block;
+}
+#mreze {
+	margin :0px;
+	padding:0px;
+}
